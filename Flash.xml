@@ -156,25 +156,6 @@
                                                                                         <field name="NUM">300</field>
                                                                                       </block>
                                                                                     </value>
-                                                                                    <next>
-                                                                                      <block type="led_select" id="115" inline="true">
-                                                                                        <field name="ACTION">FLASH</field>
-                                                                                        <value name="LED">
-                                                                                          <block type="math_number" id="116">
-                                                                                            <field name="NUM">0</field>
-                                                                                          </block>
-                                                                                        </value>
-                                                                                        <next>
-                                                                                          <block type="robot_delay" id="117" inline="true">
-                                                                                            <value name="DELAY">
-                                                                                              <block type="math_number" id="118">
-                                                                                                <field name="NUM">300</field>
-                                                                                              </block>
-                                                                                            </value>
-                                                                                          </block>
-                                                                                        </next>
-                                                                                      </block>
-                                                                                    </next>
                                                                                   </block>
                                                                                 </next>
                                                                               </block>
